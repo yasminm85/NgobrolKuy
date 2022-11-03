@@ -48,7 +48,11 @@
             android:layout_height="wrap_content"
             app:cardCornerRadius="40dp"
             android:backgroundTint="@color/white">
-
+            <EditText
+                android:id="@+id/username_regis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"/>
             <TextView
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
@@ -75,7 +79,11 @@
             android:layout_height="wrap_content"
             app:cardCornerRadius="40dp"
             android:backgroundTint="@color/white">
-
+            <EditText
+                android:id="@+id/email_regis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"/>
             <TextView
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
@@ -102,7 +110,11 @@
             android:layout_height="wrap_content"
             app:cardCornerRadius="40dp"
             android:backgroundTint="@color/white">
-
+            <EditText
+                android:id="@+id/password_regis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"/>
             <TextView
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
@@ -129,7 +141,11 @@
             android:layout_height="wrap_content"
             app:cardCornerRadius="40dp"
             android:backgroundTint="@color/white">
-
+            <EditText
+                android:id="@+id/konfirmasi_regis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"/>
             <TextView
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
@@ -153,6 +169,7 @@
         android:layout_marginTop="32dp">
 
         <TextView
+            android:id="@+id/lgnRegister"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="REGISTER"
@@ -168,6 +185,7 @@
     </androidx.cardview.widget.CardView>
 
     <TextView
+        android:id="@+id/Sudah"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sudah punya akun?"
